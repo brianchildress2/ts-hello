@@ -1,5 +1,13 @@
-let log = function(message) {
-  console.log(message);
+interface Point {
+  x: number;
+  y: number;
+}
+
+let drawPoint = (point: Point) => {
+  // ...
 };
 
-let doLog = () => console.log();
+drawPoint({
+  x: 1,
+  y: 2
+});
